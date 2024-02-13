@@ -1,0 +1,87 @@
+.home-section1 {
+  background-image: url(https://laravel.pixelstrap.net/fastkart/storage/351/rome_07.png);
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10rem 2fr 1fr 1fr 10rem;
+}
+
+.content {
+  grid-column: 2/3;
+  margin: auto 0;
+}
+.img1 {
+  margin: auto 0;
+  height: 389px;
+  border-radius: 10px;
+}
+
+.content2 {
+  grid-column: 3/4;
+  margin: auto 0;
+  padding: 30px 0;
+}
+
+.content2 img {
+  height: 389px;
+  border-radius: 10px;
+}
+.content3 {
+  margin: auto 0;
+}
+.img3 {
+  height: 35%;
+  border-radius: 10px;
+}
+
+.img4 {
+  height: 35%;
+  border-radius: 10px;
+}
+
+.category-list {
+  margin: 25px 10rem;
+}
+
+/* food cards */
+.card-header {
+  display: grid;
+  grid-template-columns: 10rem 1fr 2fr 10rem;
+  margin-top: 25px;
+}
+
+.card-header h2 {
+  grid-column: 2/3;
+}
+
+.card-header ul {
+  grid-column: 3/4;
+  gap: 15px;
+  align-items: center;
+  justify-content: end;
+}
+
+.btn1 {
+  font-size: 20px;
+  padding: 5px;
+  background-color: lightseagreen;
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
+
+.btn2 {
+  background-color: white;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  color: black;
+}
+
+.btn2:hover {
+  background-color: lightseagreen;
+  border: 2px solid lightseagreen;
+  color: white;
+}
+.card-body {
+  margin: 0 10rem;
+}
